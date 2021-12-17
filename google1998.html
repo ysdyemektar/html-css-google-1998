@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<head>
+
+<title>Google in 1998</title>
+
+<link href="https://cdn.elg.im/css/style.css" rel="stylesheet">
+<style>
+body{    
+     width: 100%;
+     height: 10%;
+     margin: 0;/*elementlerin birbiri ile olan mesafesini 0 yaptım*/
+     font-family:'VT323';}
+
+
+#browser-window{    
+    padding-top: 15px;/*üstten 15px boşluk bırakıyoruz.*/
+    margin: 0 auto;
+    width: 1024px;/*genişlik 1024px yapıyoruz*/
+    height: 768px;/*yükseklik 768px yapıyoruz*/
+    background-repeat: no-repeat;
+  }
+#main-form{width:800px;margin:0 auto;padding-top:120px}/*oluşturduğumuz arama kutusu için üstten boşluk bırakıyoruz*/
+#search-wrapper{    padding-bottom: 20px;}
+input{font-family:'VT323';} 
+</style>
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+
+</head>
+<body bgcolor="#FFFFFF">
+          
+
+     <div id="browser-window">
+               <form id="main-form" method="GET" action="search/">
+                    
+                    
+                    <center>
+                    <table border="0" width="90%">/*oluşturduğum hücrelerin kenar kalnlığı 0 ve genişliği %90 olarak ayarladık.*/
+                    <tr>
+
+                    <td bgcolor="#EEEEEE" colspan="3">/*3 tane hücre oluşturup, arka plan rengini açık gri seçtik*/
+                    <center id="search-wrapper">
+                    Search the web using Google! <br>
+                    <input type="text" name="q" value="" size="40"><br>
+                    <input type="submit" value="Google Search" onclick="location.href = 'search/';return false;">
+                    <input type="submit" name="sa" value="I'm feeling lucky" onclick="location.href = 'search/';return false;"><br>
+                    </center>
+                    </form>
+                    <form method="GET" >
+                    </td>
+                    </tr>
+                    <tr>
+                               <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" />
+                          
+                    <td width="37%" bgcolor="#7EE5DA"><center>
+                    Special Searches<br>
+                    <a href="http://www.google.com/stanford" onclick="return false;">Stanford Search</a><br>
+                    <a href="http://www.google.com/linux" onclick="return false;">Linux Search</a><br>
+                    </center>
+                    </td>
+                    <td bgcolor="#70CCC2">
+                    <center>
+                    <font size="-1">
+                    <a href="http://www.google.com/help.html" onclick="return false;">Help!</a> <br>
+                    <a href="http://www.google.com/about.html" onclick="return false;">About Google!</a> <br>
+                    <a href="http://www.google.com/company.html" onclick="return false;">Company Info</a> <br>
+                    <a href="http://www.google.com/stickers.html" onclick="return false;">Google! Logos</a> <br>
+                    </font>
+                    </center>
+                    </td>
+                    <td align="right" bgcolor="#62B3AA">
+                    <center>
+                    <font size="-1">
+                    Get Google! <br> updates monthly: <br>
+                    <input type="hidden" name="listname" value="google-friends">
+                    <input type="text" name="emailaddr" value="your e-mail"> <br>
+                    <input type="submit" name="SubmitAction" value="Subscribe" onclick="return false;"> 
+                    &nbsp;&nbsp;
+                    <font size="-1"><a href="javascript:void(0)">Archive</a></font>      
+                    </font>
+                    </center>
+                    </td>
+                    
+                    </table>
+                    </center>
+                    
+                    <p>
+                    <center><font size="-1">Copyright &copy;1998 Google Inc.</font></center>
+               </form>
+     </div>
+<div id="fb-root"></div>
+
+</body>
+</html>
